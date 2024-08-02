@@ -20,3 +20,14 @@ data.json
 
 # Exclude macOS Finder (System Explorer) View States
 .DS_Store
+
+# Exclude most test vault workspace files
+Test\ Vault/.obsidian/app.json
+Test\ Vault/.obsidian/appearance.json
+Test\ Vault/.obsidian/core-plugins-migration.json
+Test\ Vault/.obsidian/core-plugins.json
+Test\ Vault/.obsidian/graph.json
+Test\ Vault/.obsidian/workspace.json
+
+# Exclude files that are copied into or generated in test vault
+Test\ Vault/.obsidian/plugins/unofficial-tailwindcss-plugin
