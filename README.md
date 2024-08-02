@@ -26,8 +26,15 @@ list:
   - three
 ---
 
-\`\`\`pug h2= fm.title p | #{fm.summary} | Most of this content comes from the
-page's frontmatter. ul each val in ['one', 'two', 'three'] li= val \`\`\`
+\`\`\`pug
+h2= fm.title
+p
+  | #{fm.summary}
+  | Most of this content comes from the page's frontmatter.
+ul
+  each val in ['one', 'two', 'three']
+    li= val
+\`\`\`
 ```
 
 Which produces the following:
