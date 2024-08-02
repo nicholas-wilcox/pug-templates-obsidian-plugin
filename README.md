@@ -15,7 +15,7 @@ function.
 
 Here is an example page file:
 
-```md
+````md
 ---
 title: Test
 summary: |
@@ -26,7 +26,7 @@ list:
   - three
 ---
 
-\`\`\`pug
+```pug
 h2= fm.title
 p
   | #{fm.summary}
@@ -34,8 +34,8 @@ p
 ul
   each val in ['one', 'two', 'three']
     li= val
-\`\`\`
 ```
+````
 
 Which produces the following:
 
