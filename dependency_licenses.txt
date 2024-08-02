@@ -1,0 +1,6 @@
+/*! @license
+ *
+ * License Information
+ * -
+ * Pug licensed under MIT (https://github.com/pugjs/pug/blob/32acfe8f197dc44c54e8af32c7d7b19aa9d350fb/README.md#License)
+ */
