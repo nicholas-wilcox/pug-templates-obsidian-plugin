@@ -1,0 +1,50 @@
+name: Release Obsidian plugin
+
+on:
+  push:
+    tags:
+      - "*"
+
+env:
+  PLUGIN_NAME: unofficial-pug-plugin
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20.x"
+
+      - name: Bake license information
+        run: |
+          cp main.ts main_license_baked.ts
+          cat dependency_licenses.txt >> main_license_baked.ts
+
+      - name: Build plugin
+        run: |
+          npm install
+          npm run build -- main_license_baked.ts
+
+      - name: Create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FILES: "main.js manifest.json"
+
+        run: |
+          cp ./node_modules/pug/lib/css/preflight.css .
+          # Adapted from https://github.com/pjeby/hot-reload/blob/master/.github/workflows/publish.yml
+          mkdir "${PLUGIN_NAME}"
+          cp ${FILES} "${PLUGIN_NAME}/"
+          zip -r "$PLUGIN_NAME".zip "$PLUGIN_NAME"
+
+          tag="${GITHUB_REF#refs/tags/}"
+
+          gh release create "$tag" \
+            --title="$tag" \
+            --draft \
+            "${PLUGIN_NAME}".zip ${FILES}
