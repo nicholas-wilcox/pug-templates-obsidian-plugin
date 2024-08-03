@@ -1,4 +1,5 @@
 [
   "hot-reload",
-  "unofficial-pug-plugin"
+  "unofficial-pug-plugin",
+  "dataview"
 ]

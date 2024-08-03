@@ -31,3 +31,6 @@ Test\ Vault/.obsidian/workspace.json
 
 # Exclude files that are copied into or generated in test vault
 Test\ Vault/.obsidian/plugins/unofficial-pug-plugin
+
+# Exclude other plugins
+Test\ Vault/.obsidian/plugins/dataview
