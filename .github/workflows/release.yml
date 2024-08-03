@@ -36,7 +36,6 @@ jobs:
           FILES: "main.js manifest.json"
 
         run: |
-          cp ./node_modules/pug/lib/css/preflight.css .
           # Adapted from https://github.com/pjeby/hot-reload/blob/master/.github/workflows/publish.yml
           mkdir "${PLUGIN_NAME}"
           cp ${FILES} "${PLUGIN_NAME}/"
