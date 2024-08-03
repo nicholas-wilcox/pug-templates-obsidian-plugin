@@ -16,6 +16,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [0.1.0] - 2024-08-03
+
 ### Added
 
 - Test vault and release workflow from unofficial-tailwindcss-obsidian-plugin.
@@ -23,12 +25,13 @@ and this project adheres to
 - Core functionality:
   - Register a Markdown code block processor for the Pug templating language.
   - Use document frontmatter in Pug rendering context.
+  - Optional Dataview integration
 
 ### Removed
 
 - Default settings code
 
-<!-- [unreleased]: -->
-<!--   https://github.com/nicholas-wilcox/unofficial-tailwindcss-obsidian-plugin/compare/0.1.0...HEAD -->
-<!-- [0.1.0]: -->
-<!--   https://github.com/nicholas-wilcox/unofficial-tailwindcss-obsidian-plugin/releases/tag/0.1.0 -->
+[unreleased]:
+  https://github.com/nicholas-wilcox/unofficial-tailwindcss-obsidian-plugin/compare/0.1.0...HEAD
+[0.1.0]:
+  https://github.com/nicholas-wilcox/unofficial-tailwindcss-obsidian-plugin/releases/tag/0.1.0
