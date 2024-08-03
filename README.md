@@ -48,6 +48,19 @@ Which produces the following:
 > - two
 > - three
 
+### Dataview integration
+
+This plugin integrates with the
+[Dataview](https://github.com/blacksmithgu/obsidian-dataview) plugin. If you
+have installed and enabled Dataview, then it's API will be exposed to the Pug
+rendering context under the `dv` variable.
+
+However, not all methods from the Dataview JavaScript API that you might use in
+a `dataviewjs` code block are supported. Dataview's rendering methods, such as
+`dv.header()` or `dv.table()`, do not work.
+
+A fair bit of discovery and testing remains to be done.
+
 ## Installation
 
 At the time of writing, this plugin has not yet been submitted as a community
@@ -56,8 +69,8 @@ the [`hot-reload` plugin](https://github.com/pjeby/hot-reload).
 
 In the Releases section for this repository, you can find the zip archive that
 contains all of the individual files. Unzip that archive so that its contents
-are in a new directory called `unofficial-tailwindcss-plugin/`. Then you should
-be good to go after restarting Obsidian and enabling the plugin.
+are in a new directory called `unofficial-pug-plugin/`. Then you should be good
+to go after restarting Obsidian and enabling the plugin.
 
 ## Developer Notes
 
