@@ -16,6 +16,12 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [0.1.1] - 2024-08-03
+
+### Fixed
+
+- Copy-paste bug in release workflow.
+
 ## [0.1.0] - 2024-08-03
 
 ### Added
@@ -32,6 +38,8 @@ and this project adheres to
 - Default settings code
 
 [unreleased]:
-  https://github.com/nicholas-wilcox/unofficial-tailwindcss-obsidian-plugin/compare/0.1.0...HEAD
+  https://github.com/nicholas-wilcox/unofficial-tailwindcss-obsidian-plugin/compare/0.1.1...HEAD
+[0.1.1]:
+  https://github.com/nicholas-wilcox/unofficial-tailwindcss-obsidian-plugin/compare/0.1.0...0.1.1
 [0.1.0]:
   https://github.com/nicholas-wilcox/unofficial-tailwindcss-obsidian-plugin/releases/tag/0.1.0
