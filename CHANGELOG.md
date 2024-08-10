@@ -20,6 +20,10 @@ and this project adheres to
 
 - Wrap entire routine in try-catch block.
 
+### Fixed
+
+- Fix copy-paste typo in links at bottom of `CHANGELOG.md`
+
 ## [0.1.1] - 2024-08-03
 
 ### Fixed
@@ -42,8 +46,8 @@ and this project adheres to
 - Default settings code
 
 [unreleased]:
-  https://github.com/nicholas-wilcox/unofficial-tailwindcss-obsidian-plugin/compare/0.1.1...HEAD
+  https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.1...HEAD
 [0.1.1]:
-  https://github.com/nicholas-wilcox/unofficial-tailwindcss-obsidian-plugin/compare/0.1.0...0.1.1
+  https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.0...0.1.1
 [0.1.0]:
-  https://github.com/nicholas-wilcox/unofficial-tailwindcss-obsidian-plugin/releases/tag/0.1.0
+  https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/releases/tag/0.1.0
