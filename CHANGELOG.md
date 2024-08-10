@@ -16,6 +16,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Changed
+
+- Wrap entire routine in try-catch block.
+
 ## [0.1.1] - 2024-08-03
 
 ### Fixed
