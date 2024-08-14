@@ -16,6 +16,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [0.1.4] - 2024-08-14
+
 ### Added
 
 - License file
@@ -57,7 +59,8 @@ and this project adheres to
 
 - Default settings code
 
-[unreleased]: https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.3...HEAD
+[unreleased]: https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.4...HEAD
+[0.1.4]: https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.3...0.1.4
 [0.1.3]: https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.2...0.1.3
 [0.1.2]: https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.1...0.1.2
 [0.1.1]: https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.0...0.1.1
