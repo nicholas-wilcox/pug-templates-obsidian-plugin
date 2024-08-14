@@ -16,6 +16,12 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [0.1.3] - 2024-08-13
+
+### Fixed
+
+- Actually set the package and manifest version numbers.
+
 ## [0.1.2] - 2024-08-13
 
 ### Changed
@@ -47,7 +53,8 @@ and this project adheres to
 
 - Default settings code
 
-[unreleased]: https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.2...HEAD
+[unreleased]: https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.3...HEAD
+[0.1.3]: https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.2...0.1.3
 [0.1.2]: https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.1...0.1.2
 [0.1.1]: https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/releases/tag/0.1.0
