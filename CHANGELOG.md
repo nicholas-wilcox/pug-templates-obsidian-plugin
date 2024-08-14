@@ -16,6 +16,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- License file
+
 ## [0.1.3] - 2024-08-13
 
 ### Fixed
