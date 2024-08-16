@@ -9,7 +9,8 @@ This plugin registers a
 [Markdown post processor](https://docs.obsidian.md/Plugins/Editor/Markdown+post+processing)
 for `pug` code blocks. The content of each source block is fed to Pug's
 [`render()`](https://pugjs.org/api/reference.html#pugrendersource-options-callback)
-function.
+function, and the current note's properties, also known as "front matter", are
+included in Pug's rendering context as the variable `fm`.
 
 ## Usage
 
