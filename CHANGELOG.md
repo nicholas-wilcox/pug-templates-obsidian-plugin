@@ -16,6 +16,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- Support for including partial templates.
+
 ## [0.1.4] - 2024-08-14
 
 ### Added

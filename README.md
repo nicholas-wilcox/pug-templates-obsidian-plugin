@@ -48,7 +48,36 @@ Which produces the following:
 > - two
 > - three
 
-### Dataview integration
+### Including/Extending Partial Templates
+
+From the [Pug documentation](https://pugjs.org/language/includes.html):
+
+> Includes allow you to insert the contents of one Pug file into another.
+>
+> If the path is absolute (e.g., `include /root.pug`), it is resolved by prepending `options.basedir`. Otherwise, paths are resolved relative to the current file being compiled.
+>
+> If no file extension is given, `.pug` is automatically appended to the file name.
+
+This plugin supports `include` (and [`extends`](https://pugjs.org/language/inheritance.html))
+with the "Includes folder" setting, which is `pug-includes` by default. This setting's value is provides as the `basedir` option for Pug. If you create the folder in your vault's '.obsidian/' configuration folder, then you can store your partial templates there.
+
+For example, if you create the following file:
+
+```pug
+// .obsidian/pug-includes/test.pug
+div
+  span This text is from an include.
+```
+
+Then you can reference it in a note or another partial like so:
+
+````md
+```pug
+include /test.pug
+```
+````
+
+### Dataview Integration
 
 This plugin integrates with the
 [Dataview](https://github.com/blacksmithgu/obsidian-dataview) plugin. If you
