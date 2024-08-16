@@ -54,12 +54,19 @@ From the [Pug documentation](https://pugjs.org/language/includes.html):
 
 > Includes allow you to insert the contents of one Pug file into another.
 >
-> If the path is absolute (e.g., `include /root.pug`), it is resolved by prepending `options.basedir`. Otherwise, paths are resolved relative to the current file being compiled.
+> If the path is absolute (e.g., `include /root.pug`), it is resolved by
+> prepending `options.basedir`. Otherwise, paths are resolved relative to the
+> current file being compiled.
 >
-> If no file extension is given, `.pug` is automatically appended to the file name.
+> If no file extension is given, `.pug` is automatically appended to the file
+> name.
 
-This plugin supports `include` (and [`extends`](https://pugjs.org/language/inheritance.html))
-with the "Includes folder" setting, which is `pug-includes` by default. This setting's value is provides as the `basedir` option for Pug. If you create the folder in your vault's '.obsidian/' configuration folder, then you can store your partial templates there.
+This plugin supports `include` (and
+[`extends`](https://pugjs.org/language/inheritance.html)) with the "Includes
+folder" setting, which is `pug-includes` by default. This setting's value is
+provided as the `basedir` option for Pug. If you create the folder in your
+vault's '.obsidian/' configuration folder, then you can store your partial
+templates there.
 
 For example, if you create the following file:
 
