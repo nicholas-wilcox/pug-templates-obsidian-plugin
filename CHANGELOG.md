@@ -16,6 +16,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [0.2.0] - 2024-08-16
+
 ### Added
 
 - Support for including partial templates.
@@ -68,7 +70,9 @@ and this project adheres to
 - Default settings code
 
 [unreleased]:
-  https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.4...HEAD
+  https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.2.0...HEAD
+[0.2.0]:
+  https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.4...0.2.0
 [0.1.4]:
   https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.3...0.1.4
 [0.1.3]:
