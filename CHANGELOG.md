@@ -24,6 +24,7 @@ and this project adheres to
 
 - Rename project name to `pug-templates-obsidian-plugin` and plugin id to
   `pug-templates`.
+- Replace sample code in package.json.
 
 ## [0.2.0] - 2024-08-16
 
