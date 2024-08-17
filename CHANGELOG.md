@@ -16,6 +16,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [0.3.0] - 2024-08-16
+
 ### Added
 
 - Non-affiliation disclaimer in README.
@@ -80,7 +82,9 @@ and this project adheres to
 - Default settings code
 
 [unreleased]:
-  https://github.com/nicholas-wilcox/pug-templates-obsidian-plugin/compare/0.2.0...HEAD
+  https://github.com/nicholas-wilcox/pug-templates-obsidian-plugin/compare/0.3.0...HEAD
+[0.3.0]:
+  https://github.com/nicholas-wilcox/pug-templates-obsidian-plugin/compare/0.2.0...0.3.0
 [0.2.0]:
   https://github.com/nicholas-wilcox/pug-templates-obsidian-plugin/compare/0.1.4...0.2.0
 [0.1.4]:

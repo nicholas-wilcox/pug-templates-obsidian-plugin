@@ -1,10 +1,10 @@
 {
-  "id": "pug-templates",
-  "name": "Pug Templates",
-  "version": "0.2.0",
-  "minAppVersion": "0.15.0",
-  "description": "Use the Pug templating engine in your vault.",
-  "author": "Nicholas Wilcox",
-  "authorUrl": "https://github.com/nicholas-wilcox",
-  "isDesktopOnly": true
+	"id": "pug-templates",
+	"name": "Pug Templates",
+	"version": "0.3.0",
+	"minAppVersion": "0.15.0",
+	"description": "Use the Pug templating engine in your vault.",
+	"author": "Nicholas Wilcox",
+	"authorUrl": "https://github.com/nicholas-wilcox",
+	"isDesktopOnly": true
 }
