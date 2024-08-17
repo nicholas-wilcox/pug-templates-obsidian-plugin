@@ -16,6 +16,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Changed
+
+- Updated package-lock.json.
+
 ## [0.3.0] - 2024-08-16
 
 ### Added
