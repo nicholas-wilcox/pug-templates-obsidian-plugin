@@ -16,6 +16,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- Non-affiliation disclaimer in README.
+
 ## [0.2.0] - 2024-08-16
 
 ### Added

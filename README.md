@@ -3,6 +3,10 @@
 This plugin lets you render [Pug](https://pugjs.org/api/getting-started.html)
 templates in your Obsidian vault.
 
+## Disclaimer
+
+This repository and its author are not affiliated with Pug.
+
 ## How it works
 
 This plugin registers a
