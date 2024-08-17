@@ -102,17 +102,6 @@ a `dataviewjs` code block are supported. Dataview's rendering methods, such as
 
 A fair bit of discovery and testing remains to be done.
 
-## Installation
-
-At the time of writing, this plugin has not yet been submitted as a community
-plugin. Therefore, you must manually install this plugin, as you might do so for
-the [`hot-reload` plugin](https://github.com/pjeby/hot-reload).
-
-In the Releases section for this repository, you can find the zip archive that
-contains all of the individual files. Unzip that archive so that its contents
-are in a new directory called `unofficial-pug-plugin/`. Then you should be good
-to go after restarting Obsidian and enabling the plugin.
-
 ## Developer Notes
 
 This is a fork of Obsidian's sample plugin repository. Changes other than

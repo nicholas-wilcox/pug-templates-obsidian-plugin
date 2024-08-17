@@ -20,6 +20,11 @@ and this project adheres to
 
 - Non-affiliation disclaimer in README.
 
+### Changed
+
+- Rename project name to `pug-templates-obsidian-plugin` and plugin id to
+  `pug-templates`.
+
 ## [0.2.0] - 2024-08-16
 
 ### Added
@@ -74,16 +79,16 @@ and this project adheres to
 - Default settings code
 
 [unreleased]:
-  https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.2.0...HEAD
+  https://github.com/nicholas-wilcox/pug-templates-obsidian-plugin/compare/0.2.0...HEAD
 [0.2.0]:
-  https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.4...0.2.0
+  https://github.com/nicholas-wilcox/pug-templates-obsidian-plugin/compare/0.1.4...0.2.0
 [0.1.4]:
-  https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.3...0.1.4
+  https://github.com/nicholas-wilcox/pug-templates-obsidian-plugin/compare/0.1.3...0.1.4
 [0.1.3]:
-  https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.2...0.1.3
+  https://github.com/nicholas-wilcox/pug-templates-obsidian-plugin/compare/0.1.2...0.1.3
 [0.1.2]:
-  https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.1...0.1.2
+  https://github.com/nicholas-wilcox/pug-templates-obsidian-plugin/compare/0.1.1...0.1.2
 [0.1.1]:
-  https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/compare/0.1.0...0.1.1
+  https://github.com/nicholas-wilcox/pug-templates-obsidian-plugin/compare/0.1.0...0.1.1
 [0.1.0]:
-  https://github.com/nicholas-wilcox/unofficial-pug-obsidian-plugin/releases/tag/0.1.0
+  https://github.com/nicholas-wilcox/pug-templates-obsidian-plugin/releases/tag/0.1.0

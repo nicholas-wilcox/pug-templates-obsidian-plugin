@@ -6,7 +6,7 @@ on:
       - "*"
 
 env:
-  PLUGIN_NAME: unofficial-pug-plugin
+  PLUGIN_NAME: pug-templates
 
 jobs:
   build:
