@@ -16,9 +16,9 @@ and this project adheres to
 
 ## [Unreleased]
 
-### Changed
-
 ## [0.3.1] - 2024-08-16
+
+### Changed
 
 - Updated package-lock.json.
 
