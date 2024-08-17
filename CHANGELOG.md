@@ -16,6 +16,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Changed
+
+- Refactor class names from `UnofficialPug` to `PugTemplate`.
+
 ## [0.3.1] - 2024-08-16
 
 ### Changed

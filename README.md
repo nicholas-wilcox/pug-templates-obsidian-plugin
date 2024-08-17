@@ -1,4 +1,4 @@
-# Unofficial Pug Obsidian Plugin
+# Pug Template Obsidian Plugin
 
 This plugin lets you render [Pug](https://pugjs.org/api/getting-started.html)
 templates in your Obsidian vault.

@@ -1,18 +1,18 @@
 import { App, PluginSettingTab, Setting } from "obsidian";
-import UnofficialPugPlugin from "./main";
+import PugTemplatePlugin from "./main";
 
-export interface UnofficialPugPluginSettings {
+export interface PugTemplatePluginSettings {
   includesPath: string;
 }
 
-export const DEFAULT_SETTINGS: UnofficialPugPluginSettings = {
+export const DEFAULT_SETTINGS: PugTemplatePluginSettings = {
   includesPath: "pug-includes",
 };
 
 export class SettingTab extends PluginSettingTab {
-  plugin: UnofficialPugPlugin;
+  plugin: PugTemplatePlugin;
 
-  constructor(app: App, plugin: UnofficialPugPlugin) {
+  constructor(app: App, plugin: PugTemplatePlugin) {
     super(app, plugin);
     this.plugin = plugin;
   }

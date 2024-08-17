@@ -9,12 +9,12 @@ import { getAPI, isPluginEnabled } from "obsidian-dataview";
 import type { DataviewApi } from "obsidian-dataview";
 import {
   DEFAULT_SETTINGS,
-  UnofficialPugPluginSettings,
+  PugTemplatePluginSettings,
   SettingTab,
 } from "./settings";
 
-export default class UnofficialPugPlugin extends Plugin {
-  settings: UnofficialPugPluginSettings;
+export default class PugTemplatePlugin extends Plugin {
+  settings: PugTemplatePluginSettings;
 
   async onload() {
     await this.loadSettings();
