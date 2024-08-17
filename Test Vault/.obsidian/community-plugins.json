@@ -1,5 +1,6 @@
 [
   "hot-reload",
   "unofficial-pug-plugin",
-  "dataview"
+  "dataview",
+  "pug-templates"
 ]
