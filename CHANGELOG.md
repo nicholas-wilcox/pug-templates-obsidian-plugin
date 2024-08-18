@@ -16,6 +16,14 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- Add note about using the `FileSystemAdapter` in `README.md`.
+
+### Changed
+
+- Check for `instanceof` `FileSystemAdapter` instead of type casting.
+
 ## [0.3.2] - 2024-08-16
 
 ### Changed

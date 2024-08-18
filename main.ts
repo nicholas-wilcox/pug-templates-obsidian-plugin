@@ -3,6 +3,7 @@ import {
   Plugin,
   normalizePath,
   FileSystemAdapter,
+  DataAdapter,
 } from "obsidian";
 import { render } from "pug";
 import { getAPI, isPluginEnabled } from "obsidian-dataview";
@@ -28,8 +29,8 @@ export default class PugTemplatePlugin extends Plugin {
     this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
   }
 
-  get adapter(): FileSystemAdapter {
-    return this.app.vault.adapter as FileSystemAdapter;
+  get adapter(): DataAdapter {
+    return this.app.vault.adapter;
   }
 
   async processPug(
@@ -38,6 +39,9 @@ export default class PugTemplatePlugin extends Plugin {
     ctx: MarkdownPostProcessorContext,
   ) {
     try {
+      if (!(this.adapter instanceof FileSystemAdapter)) {
+        throw Error("Adapter is not FileSystemAdapter. Cannot proceed.");
+      }
       const fm = ctx.frontmatter;
       const basedir = this.adapter.getFullPath(
         normalizePath(

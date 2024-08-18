@@ -16,6 +16,10 @@ for `pug` code blocks. The content of each source block is fed to Pug's
 function, and the current note's properties, also known as "front matter", are
 included in Pug's rendering context as the variable `fm`.
 
+This plugin makes use of the
+[FileSystemAdapter](https://docs.obsidian.md/Reference/TypeScript+API/FileSystemAdapter/FileSystemAdapter)
+API to read files in your vault's configuration directory.
+
 ## Usage
 
 Here is an example page file:
