@@ -1,7 +1,7 @@
 {
 	"id": "pug-templates",
 	"name": "Pug Templates",
-	"version": "0.3.3",
+	"version": "0.4.0",
 	"minAppVersion": "0.15.0",
 	"description": "Use the Pug templating engine in your vault.",
 	"author": "Nicholas Wilcox",
