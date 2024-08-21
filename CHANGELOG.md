@@ -26,6 +26,10 @@ and this project adheres to
 
 - Empty `onunload()` function definition.
 
+### Fixed
+
+- Set `obsidian-dataview` as regular dependency and include license.
+
 ## [0.3.3] - 2024-08-18
 
 ### Added

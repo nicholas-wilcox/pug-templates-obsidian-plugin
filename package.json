@@ -19,11 +19,11 @@
     "builtin-modules": "^4.0.0",
     "esbuild": "^0.23.0",
     "obsidian": "latest",
-    "obsidian-dataview": "^0.5.67",
     "tslib": "^2.6.3",
     "typescript": "^5.5.4"
   },
   "dependencies": {
+    "obsidian-dataview": "^0.5.67",
     "parse5": "^7.1.2",
     "pug": "^3.0.2"
   }
