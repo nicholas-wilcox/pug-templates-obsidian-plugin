@@ -115,7 +115,6 @@ export default class PugTemplatePlugin extends Plugin {
       let dv: DataviewApi | undefined;
       if (isPluginEnabled(this.app)) {
         dv = getAPI(this.app);
-
         if (dv === undefined) {
           throw Error(
             "DataviewApi object was still undefined after attempting to load it.",
