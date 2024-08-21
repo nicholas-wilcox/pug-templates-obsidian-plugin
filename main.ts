@@ -6,7 +6,10 @@ import {
   DataAdapter,
 } from "obsidian";
 import { render } from "pug";
-import { getAPI, isPluginEnabled } from "obsidian-dataview";
+import {
+  getAPI,
+  isPluginEnabled as isDataviewEnabled,
+} from "obsidian-dataview";
 import type { DataviewApi } from "obsidian-dataview";
 import { parseFragment } from "parse5";
 import type {
@@ -111,7 +114,7 @@ export default class PugTemplatePlugin extends Plugin {
       const filename = this.adapter.getFullPath(normalizePath(ctx.sourcePath));
 
       let dv: DataviewApi | undefined;
-      if (isPluginEnabled(this.app)) {
+      if (isDataviewEnabled(this.app)) {
         dv = getAPI(this.app);
         if (dv === undefined) {
           throw Error(

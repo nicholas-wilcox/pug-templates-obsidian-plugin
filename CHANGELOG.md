@@ -20,6 +20,7 @@ and this project adheres to
 
 - Use `parse5` and Obsidian's `createEl()` function instead of setting
   `innerHTML`.
+- Use alias for `obsidian-dataview`'s `isPluginEnabled()` export.
 
 ### Removed
 
