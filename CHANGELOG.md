@@ -16,6 +16,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- Test page for attributes.
+
 ### Changed
 
 - Use `parse5` and Obsidian's `createEl()` function instead of setting
