@@ -16,6 +16,11 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Changed
+
+- Use `parse5` and Obsidian's `createEl()` function instead of setting
+  `innerHTML`.
+
 ## [0.3.3] - 2024-08-18
 
 ### Added

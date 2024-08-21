@@ -24,6 +24,7 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
+    "parse5": "^7.1.2",
     "pug": "^3.0.2"
   }
 }
