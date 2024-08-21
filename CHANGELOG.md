@@ -21,6 +21,10 @@ and this project adheres to
 - Use `parse5` and Obsidian's `createEl()` function instead of setting
   `innerHTML`.
 
+### Removed
+
+- Empty `onunload()` function definition.
+
 ## [0.3.3] - 2024-08-18
 
 ### Added
