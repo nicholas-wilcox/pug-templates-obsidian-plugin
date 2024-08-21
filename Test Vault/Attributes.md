@@ -8,5 +8,5 @@ summary: |
 h2= fm.title
 p(style="text-decoration: underline;")
   | #{fm.summary}
-  | This paragraph is underlined because the #[code &lt;style&gt;] attribute is set.
+  | This paragraph is underlined because the #[code style] attribute is set to `"text-decoration: underline;"`.
 ```

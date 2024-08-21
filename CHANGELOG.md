@@ -16,6 +16,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- Incorrect phrasing on the `Attributes.md` test vault page.
+
 ## [0.4.0] - 2024-08-20
 
 ### Added
