@@ -16,6 +16,8 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [0.4.1] - 2024-09-08
+
 ### Changed
 
 - Refactored code around normalizing Pug includes path.
@@ -132,7 +134,9 @@ and this project adheres to
 - Default settings code
 
 [unreleased]:
-  https://github.com/nicholas-wilcox/pug-templates-obsidian-plugin/compare/0.4.0...HEAD
+  https://github.com/nicholas-wilcox/pug-templates-obsidian-plugin/compare/0.4.1...HEAD
+[0.4.1]:
+  https://github.com/nicholas-wilcox/pug-templates-obsidian-plugin/compare/0.4.0...0.4.1
 [0.4.0]:
   https://github.com/nicholas-wilcox/pug-templates-obsidian-plugin/compare/0.3.3...0.4.0
 [0.3.3]:
