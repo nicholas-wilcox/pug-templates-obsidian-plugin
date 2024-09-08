@@ -16,6 +16,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Changed
+
+- Refactored code around normalizing Pug includes path.
+
 ### Fixed
 
 - Incorrect phrasing on the `Attributes.md` test vault page.

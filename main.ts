@@ -108,7 +108,7 @@ export default class PugTemplatePlugin extends Plugin {
       const fm = ctx.frontmatter;
       const basedir = this.adapter.getFullPath(
         normalizePath(
-          this.app.vault.configDir + "/" + this.settings.includesPath,
+          `${this.app.vault.configDir}/${this.settings.includesPath}`,
         ),
       );
       const filename = this.adapter.getFullPath(normalizePath(ctx.sourcePath));
