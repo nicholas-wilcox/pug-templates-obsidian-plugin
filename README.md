@@ -74,7 +74,7 @@ This plugin supports `include` (and
 [`extends`](https://pugjs.org/language/inheritance.html)) with the "Includes
 folder" setting, which is `pug-includes` by default. This setting's value is
 provided as the `basedir` option for Pug. If you create the folder in your
-vault's '.obsidian/' configuration folder, then you can store your partial
+vault's `.obsidian/` configuration folder, then you can store your partial
 templates there.
 
 For example, if you create the following file:
