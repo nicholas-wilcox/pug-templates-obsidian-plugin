@@ -97,7 +97,7 @@ include /test.pug
 
 This plugin integrates with the
 [Dataview](https://github.com/blacksmithgu/obsidian-dataview) plugin. If you
-have installed and enabled Dataview, then it's API will be exposed to the Pug
+have installed and enabled Dataview, then its API will be exposed to the Pug
 rendering context under the `dv` variable.
 
 However, not all methods from the Dataview JavaScript API that you might use in
