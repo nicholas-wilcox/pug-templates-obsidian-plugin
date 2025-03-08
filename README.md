@@ -26,7 +26,7 @@ Here is an example page file:
 
 ````md
 ---
-title: Test
+title: Simple Test
 summary: |
   This test demonstrates using the Pug templating language.
 list:
